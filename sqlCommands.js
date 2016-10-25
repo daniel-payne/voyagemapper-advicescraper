@@ -1,4 +1,4 @@
-﻿require('dotenv').config({path: 'CONNECTION.env', silent: true});
+﻿require('dotenv').config({path: 'CONNECTION.local', silent: true});
 
 var ConnectionPool = require('tedious-connection-pool');
 var Connection     = require('tedious').Connection;

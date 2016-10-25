@@ -65,9 +65,9 @@ function extractInformationFromPage(rootSite, rootPage) {
 
     var pageText = pageInformation.join(' ');
 
-    pageText = pageText.replace(/([a-z]|\)) (The |You |There |In [a-z]|the FCO advise against )/g, '$1. $2')
+    pageText = pageText.replace(/([a-z]|\)|:|;|,)\s+(The |You |There |In [a-z]|the FCO advise against )/g, '$1. $2')
 
-    pageText = pageText.replace(/([a-z]|.) (see natural disasters|see terrorism|see landmines|see natural disasters|see winter sports|see consular assistance|see political situation|see crime and local travel|see crime)/gi, '$1. $2.') 
+    pageText = pageText.replace(/([a-z]|.)\s+(see natural disasters|see terrorism|see landmines|see natural disasters|see winter sports|see consular assistance|see political situation|see crime and local travel|see crime)/gi, '$1. $2.') 
 
     pageText = pageText.replace(/ in the area to which. the FCO advise against /g, ' in the area to which the FCO advise against ')
 
