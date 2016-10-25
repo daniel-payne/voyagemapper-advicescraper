@@ -1,0 +1,18 @@
+{
+  "name": "CaptureService",
+  "version": "0.0.0",
+  "description": "CaptureService",
+  "main": "server.js",
+  "author": {
+    "name": "Daniel",
+    "email": ""
+  },
+  "dependencies": {
+    "dotenv": "^2.0.0",
+    "promise": "^7.1.1",
+    "scrape-it": "^3.1.1",
+    "tedious": "^1.14.0",
+    "tedious-connection-pool": "^1.0.5"
+  },
+  "devDependencies": {}
+}

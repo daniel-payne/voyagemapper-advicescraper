@@ -1,0 +1,9 @@
+node_modules/
+.vscode/
+.ntvs_analysis.dat
+CaptureService.njsproj
+Web.Debug.config
+Web.config
+bin/
+CONNECTION.cloud
+CONNECTION.local
